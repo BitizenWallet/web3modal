@@ -1,4 +1,4 @@
-import { ClientCtrl } from '@web3modal/core'
+import { ClientCtrl } from '@bitizenwallet/web3modal-core'
 import { html, LitElement } from 'lit'
 import { customElement, state } from 'lit/decorators.js'
 import { classMap } from 'lit/directives/class-map.js'

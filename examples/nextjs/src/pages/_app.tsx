@@ -1,5 +1,5 @@
+import { Web3Modal } from '@bitizenwallet/web3modal-react'
 import { EthereumClient, modalConnectors, walletConnectProvider } from '@web3modal/ethereum'
-import { Web3Modal } from '@web3modal/react'
 import type { AppProps } from 'next/app'
 import { useEffect, useState } from 'react'
 import { configureChains, createClient, WagmiConfig } from 'wagmi'

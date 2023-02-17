@@ -1,4 +1,4 @@
-import { RouterCtrl } from '@web3modal/core'
+import { RouterCtrl } from '@bitizenwallet/web3modal-core'
 import type { TemplateResult } from 'lit'
 import { html, LitElement } from 'lit'
 import { customElement, property } from 'lit/decorators.js'

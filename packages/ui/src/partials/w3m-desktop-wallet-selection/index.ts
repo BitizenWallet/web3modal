@@ -1,5 +1,5 @@
-import type { DesktopConnectorData } from '@web3modal/core'
-import { ConfigCtrl, ExplorerCtrl, OptionsCtrl, RouterCtrl } from '@web3modal/core'
+import type { DesktopConnectorData } from '@bitizenwallet/web3modal-core'
+import { ConfigCtrl, ExplorerCtrl, OptionsCtrl, RouterCtrl } from '@bitizenwallet/web3modal-core'
 import { html, LitElement } from 'lit'
 import { customElement } from 'lit/decorators.js'
 import { ifDefined } from 'lit/directives/if-defined.js'

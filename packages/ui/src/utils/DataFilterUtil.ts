@@ -1,5 +1,5 @@
-import type { Listing, MobileWallet } from '@web3modal/core'
-import { ClientCtrl, ConfigCtrl, CoreUtil, OptionsCtrl } from '@web3modal/core'
+import type { Listing, MobileWallet } from '@bitizenwallet/web3modal-core'
+import { ClientCtrl, ConfigCtrl, CoreUtil, OptionsCtrl } from '@bitizenwallet/web3modal-core'
 import type { TemplateResult } from 'lit'
 import { InjectedId } from '../presets/EthereumPresets'
 import { UiUtil } from './UiUtil'

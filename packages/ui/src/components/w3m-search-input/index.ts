@@ -1,4 +1,4 @@
-import { CoreUtil } from '@web3modal/core'
+import { CoreUtil } from '@bitizenwallet/web3modal-core'
 import { html, LitElement } from 'lit'
 import { customElement, property } from 'lit/decorators.js'
 import { SvgUtil } from '../../utils/SvgUtil'

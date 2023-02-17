@@ -1,5 +1,5 @@
+import { Web3Modal } from '@bitizenwallet/web3modal-standalone'
 import { SignClient } from '@walletconnect/sign-client'
-import { Web3Modal } from '@web3modal/standalone'
 
 // 0. Define ui elements
 const connectButton = document.getElementById('connect-button')

@@ -7,7 +7,7 @@
     "react-dom": "18.2.0",
     "react-scripts": "5.0.1",
     "@web3modal/ethereum": "2.1.1",
-    "@web3modal/react": "2.1.1",
+    "@bitizenwallet/web3modal-react": "2.1.1",
     "wagmi": "0.11.5",
     "ethers": "5.7.2"
   },

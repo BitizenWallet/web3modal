@@ -1,4 +1,4 @@
-import { ConfigCtrl, OptionsCtrl } from '@web3modal/core'
+import { ConfigCtrl, OptionsCtrl } from '@bitizenwallet/web3modal-core'
 import { html, LitElement } from 'lit'
 import { customElement, property, state } from 'lit/decorators.js'
 import { ifDefined } from 'lit/directives/if-defined.js'

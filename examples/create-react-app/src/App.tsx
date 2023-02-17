@@ -1,5 +1,5 @@
+import { Web3Button, Web3Modal, Web3NetworkSwitch } from '@bitizenwallet/web3modal-react'
 import { EthereumClient, modalConnectors, walletConnectProvider } from '@web3modal/ethereum'
-import { Web3Button, Web3Modal, Web3NetworkSwitch } from '@web3modal/react'
 import { configureChains, createClient, WagmiConfig } from 'wagmi'
 import { arbitrum, avalanche, bsc, fantom, gnosis, mainnet, optimism, polygon } from 'wagmi/chains'
 

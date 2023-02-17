@@ -1,11 +1,11 @@
 import {
-  ClientCtrl,
-  CoreUtil,
-  ModalCtrl,
-  OptionsCtrl,
-  RouterCtrl,
-  ToastCtrl
-} from '@web3modal/core'
+    ClientCtrl,
+    CoreUtil,
+    ModalCtrl,
+    OptionsCtrl,
+    RouterCtrl,
+    ToastCtrl
+} from '@bitizenwallet/web3modal-core'
 import { html, LitElement } from 'lit'
 import { customElement, state } from 'lit/decorators.js'
 import { ifDefined } from 'lit/directives/if-defined.js'

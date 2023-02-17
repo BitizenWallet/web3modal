@@ -1075,6 +1075,43 @@
   "resolved" "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz"
   "version" "0.2.3"
 
+"@bitizenwallet/web3modal-core@2.1.1", "@bitizenwallet/web3modal-core@file:/Users/naiba/Projects/0-BitizenWallet/web3modal/packages/core":
+  "resolved" "file:packages/core"
+  "version" "2.1.1"
+  dependencies:
+    "buffer" "6.0.3"
+    "valtio" "1.10.1"
+
+"@bitizenwallet/web3modal-html@2.1.1", "@bitizenwallet/web3modal-html@file:/Users/naiba/Projects/0-BitizenWallet/web3modal/packages/html":
+  "resolved" "file:packages/html"
+  "version" "2.1.1"
+  dependencies:
+    "@bitizenwallet/web3modal-ui" "2.1.1"
+    "@web3modal/core" "2.1.1"
+
+"@bitizenwallet/web3modal-react@2.1.1", "@bitizenwallet/web3modal-react@file:/Users/naiba/Projects/0-BitizenWallet/web3modal/packages/react":
+  "resolved" "file:packages/react"
+  "version" "2.1.1"
+  dependencies:
+    "@bitizenwallet/web3modal-ui" "2.1.1"
+    "@web3modal/core" "2.1.1"
+
+"@bitizenwallet/web3modal-standalone@2.1.1", "@bitizenwallet/web3modal-standalone@file:/Users/naiba/Projects/0-BitizenWallet/web3modal/packages/standalone":
+  "resolved" "file:packages/standalone"
+  "version" "2.1.1"
+  dependencies:
+    "@bitizenwallet/web3modal-ui" "2.1.1"
+    "@web3modal/core" "2.1.1"
+
+"@bitizenwallet/web3modal-ui@2.1.1", "@bitizenwallet/web3modal-ui@file:/Users/naiba/Projects/0-BitizenWallet/web3modal/packages/ui":
+  "resolved" "file:packages/ui"
+  "version" "2.1.1"
+  dependencies:
+    "@web3modal/core" "2.1.1"
+    "lit" "2.6.1"
+    "motion" "10.15.5"
+    "qrcode" "1.5.1"
+
 "@coinbase/wallet-sdk@^3.5.4":
   "integrity" "sha512-XUR4poOJE+dKzwBTdlM693CdLFitr046oZOVY3iDnbFcRrrQswhbDji7q4CmUcD4HxbfViX7PFoIwl79YQcukg=="
   "resolved" "https://registry.npmjs.org/@coinbase/wallet-sdk/-/wallet-sdk-3.6.3.tgz"
@@ -5230,46 +5267,16 @@
   dependencies:
     "@walletconnect/window-getters" "^1.0.0"
 
-"@web3modal/core@2.1.1", "@web3modal/core@file:/Users/naiba/Projects/0-BitizenWallet/web3modal/packages/core":
-  "resolved" "file:packages/core"
-  "version" "2.1.1"
-  dependencies:
-    "buffer" "6.0.3"
-    "valtio" "1.10.1"
-
 "@web3modal/ethereum@2.1.1", "@web3modal/ethereum@file:/Users/naiba/Projects/0-BitizenWallet/web3modal/chains/ethereum":
   "resolved" "file:chains/ethereum"
   "version" "2.1.1"
 
-"@web3modal/html@2.1.1", "@web3modal/html@file:/Users/naiba/Projects/0-BitizenWallet/web3modal/packages/html":
-  "resolved" "file:packages/html"
-  "version" "2.1.1"
-  dependencies:
-    "@web3modal/core" "2.1.1"
-    "@web3modal/ui" "2.1.1"
-
-"@web3modal/react@2.1.1", "@web3modal/react@file:/Users/naiba/Projects/0-BitizenWallet/web3modal/packages/react":
-  "resolved" "file:packages/react"
-  "version" "2.1.1"
-  dependencies:
-    "@web3modal/core" "2.1.1"
-    "@web3modal/ui" "2.1.1"
-
-"@web3modal/standalone@^2.1.1", "@web3modal/standalone@2.1.1", "@web3modal/standalone@file:/Users/naiba/Projects/0-BitizenWallet/web3modal/packages/standalone":
+"@web3modal/standalone@^2.1.1":
   "resolved" "file:packages/standalone"
   "version" "2.1.1"
   dependencies:
-    "@web3modal/core" "2.1.1"
-    "@web3modal/ui" "2.1.1"
-
-"@web3modal/ui@2.1.1", "@web3modal/ui@file:/Users/naiba/Projects/0-BitizenWallet/web3modal/packages/ui":
-  "resolved" "file:packages/ui"
-  "version" "2.1.1"
-  dependencies:
-    "@web3modal/core" "2.1.1"
-    "lit" "2.6.1"
-    "motion" "10.15.5"
-    "qrcode" "1.5.1"
+    "@bitizenwallet/web3modal-core" "2.1.1"
+    "@bitizenwallet/web3modal-ui" "2.1.1"
 
 "@webassemblyjs/ast@1.11.1":
   "integrity" "sha512-ukBh14qFLjxTQNTXocdyksN5QdM28S1CxHt2rdskFyL+xFV7VremuBLVbmCePj+URalXBENx/9Lm7lnhihtCSw=="
@@ -7055,8 +7062,8 @@
   "resolved" "file:examples/create-react-app"
   "version" "2.1.1"
   dependencies:
+    "@bitizenwallet/web3modal-react" "2.1.1"
     "@web3modal/ethereum" "2.1.1"
-    "@web3modal/react" "2.1.1"
     "ethers" "5.7.2"
     "react" "18.2.0"
     "react-dom" "18.2.0"
@@ -9509,10 +9516,10 @@
   "resolved" "file:examples/html"
   "version" "2.1.1"
   dependencies:
+    "@bitizenwallet/web3modal-html" "2.1.1"
     "@gnosis.pm/safe-apps-wagmi" "2.1.0"
     "@wagmi/core" "0.9.5"
     "@web3modal/ethereum" "2.1.1"
-    "@web3modal/html" "2.1.1"
     "ethers" "5.7.2"
 
 "html-minifier-terser@^6.0.2":
@@ -9545,8 +9552,8 @@
   "resolved" "file:examples/html-standalone"
   "version" "2.1.1"
   dependencies:
+    "@bitizenwallet/web3modal-standalone" "2.1.1"
     "@walletconnect/sign-client" "2.4.0"
-    "@web3modal/standalone" "2.1.1"
 
 "html-webpack-plugin@^5.5.0":
   "integrity" "sha512-sy88PC2cRTVxvETRgUHFrL4No3UxvcH8G1NepGhqaTT+GXN2kTamqasot0inS5hXeg1cMbFDt27zzo9p35lZVw=="
@@ -11008,11 +11015,11 @@
   "resolved" "file:examples/laboratory"
   "version" "2.1.1"
   dependencies:
+    "@bitizenwallet/web3modal-react" "2.1.1"
     "@nextui-org/react" "1.0.0-beta.12"
     "@sentry/react" "7.37.1"
     "@sentry/tracing" "7.37.1"
     "@web3modal/ethereum" "2.1.1"
-    "@web3modal/react" "2.1.1"
     "ethers" "5.7.2"
     "next" "13.1.6"
     "react" "18.2.0"
@@ -11779,8 +11786,8 @@
   "resolved" "file:examples/nextjs"
   "version" "2.1.1"
   dependencies:
+    "@bitizenwallet/web3modal-react" "2.1.1"
     "@web3modal/ethereum" "2.1.1"
-    "@web3modal/react" "2.1.1"
     "ethers" "5.7.2"
     "next" "13.1.6"
     "react" "18.2.0"
@@ -11791,8 +11798,8 @@
   "resolved" "file:examples/nextjs-standalone"
   "version" "2.1.1"
   dependencies:
+    "@bitizenwallet/web3modal-standalone" "2.1.1"
     "@walletconnect/sign-client" "2.4.0"
-    "@web3modal/standalone" "2.1.1"
     "next" "13.1.6"
     "react" "18.2.0"
     "react-dom" "18.2.0"

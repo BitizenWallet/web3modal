@@ -1,4 +1,4 @@
-import { OptionsCtrl } from '@web3modal/core'
+import { OptionsCtrl } from '@bitizenwallet/web3modal-core'
 import { html, LitElement } from 'lit'
 import { customElement, property, state } from 'lit/decorators.js'
 import { classMap } from 'lit/directives/class-map.js'

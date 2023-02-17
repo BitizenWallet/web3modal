@@ -1,6 +1,6 @@
+import { Web3Modal } from '@bitizenwallet/web3modal-standalone'
 import { Button, Card, Divider, Modal, Spinner, Text } from '@nextui-org/react'
 import SignClient from '@walletconnect/sign-client'
-import { Web3Modal } from '@web3modal/standalone'
 import { useEffect, useState } from 'react'
 import { getProjectId } from '../utilities/EnvUtil'
 

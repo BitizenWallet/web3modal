@@ -1,12 +1,12 @@
-import type { InstallConnectorData, Listing, MobileWallet } from '@web3modal/core'
+import type { InstallConnectorData, Listing, MobileWallet } from '@bitizenwallet/web3modal-core'
 import {
-  ClientCtrl,
-  CoreUtil,
-  ExplorerCtrl,
-  OptionsCtrl,
-  RouterCtrl,
-  ToastCtrl
-} from '@web3modal/core'
+    ClientCtrl,
+    CoreUtil,
+    ExplorerCtrl,
+    OptionsCtrl,
+    RouterCtrl,
+    ToastCtrl
+} from '@bitizenwallet/web3modal-core'
 import { html, LitElement } from 'lit'
 import { customElement, state } from 'lit/decorators.js'
 import { classMap } from 'lit/directives/class-map.js'

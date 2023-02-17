@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@web3modal/ethereum": "2.1.1",
-    "@web3modal/react": "2.1.1",
+    "@bitizenwallet/web3modal-react": "2.1.1",
     "ethers": "5.7.2",
     "next": "13.1.6",
     "react": "18.2.0",

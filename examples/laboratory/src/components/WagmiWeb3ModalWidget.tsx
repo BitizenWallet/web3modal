@@ -1,5 +1,5 @@
+import { Web3Button, Web3NetworkSwitch } from '@bitizenwallet/web3modal-react'
 import { Button, Card, Divider, Modal, Text } from '@nextui-org/react'
-import { Web3Button, Web3NetworkSwitch } from '@web3modal/react'
 import { useEffect, useState } from 'react'
 import { useAccount, useSignMessage } from 'wagmi'
 

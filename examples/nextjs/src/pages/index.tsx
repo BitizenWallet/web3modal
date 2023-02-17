@@ -1,4 +1,4 @@
-import { Web3Button, Web3NetworkSwitch } from '@web3modal/react'
+import { Web3Button, Web3NetworkSwitch } from '@bitizenwallet/web3modal-react'
 import CustomButton from '../components/CustomButton'
 
 export default function HomePage() {

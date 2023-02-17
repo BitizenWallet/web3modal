@@ -1,12 +1,12 @@
 import {
-  ClientCtrl,
-  ConfigCtrl,
-  CoreUtil,
-  ExplorerCtrl,
-  ModalCtrl,
-  OptionsCtrl,
-  ToastCtrl
-} from '@web3modal/core'
+    ClientCtrl,
+    ConfigCtrl,
+    CoreUtil,
+    ExplorerCtrl,
+    ModalCtrl,
+    OptionsCtrl,
+    ToastCtrl
+} from '@bitizenwallet/web3modal-core'
 import type { LitElement } from 'lit'
 import { ChainPresets } from '../presets/ChainPresets'
 import { EthereumPresets, InjectedId } from '../presets/EthereumPresets'

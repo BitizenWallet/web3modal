@@ -1,4 +1,4 @@
-import { useWeb3Modal } from '@web3modal/react'
+import { useWeb3Modal } from '@bitizenwallet/web3modal-react'
 import { useState } from 'react'
 import { useAccount, useDisconnect } from 'wagmi'
 

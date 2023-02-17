@@ -1,12 +1,12 @@
 import {
-  ClientCtrl,
-  ConfigCtrl,
-  CoreUtil,
-  ExplorerCtrl,
-  ModalCtrl,
-  OptionsCtrl,
-  ToastCtrl
-} from '@web3modal/core'
+    ClientCtrl,
+    ConfigCtrl,
+    CoreUtil,
+    ExplorerCtrl,
+    ModalCtrl,
+    OptionsCtrl,
+    ToastCtrl
+} from '@bitizenwallet/web3modal-core'
 import { html, LitElement } from 'lit'
 import { customElement, state } from 'lit/decorators.js'
 import { classMap } from 'lit/directives/class-map.js'

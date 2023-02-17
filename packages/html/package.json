@@ -1,5 +1,5 @@
 {
-  "name": "@web3modal/html",
+  "name": "@bitizenwallet/web3modal-html",
   "version": "2.1.1",
   "main": "dist/index.js",
   "type": "module",
@@ -19,8 +19,8 @@
     "@web3modal/ethereum": "2.1.1"
   },
   "dependencies": {
-    "@web3modal/core": "2.1.1",
-    "@web3modal/ui": "2.1.1"
+    "@bitizenwallet/web3modal-core": "2.1.1",
+    "@bitizenwallet/web3modal-ui": "2.1.1"
   },
   "keywords": [
     "web3",

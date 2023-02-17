@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@walletconnect/sign-client": "2.4.0",
-    "@web3modal/standalone": "2.1.1"
+    "@bitizenwallet/web3modal-standalone": "2.1.1"
   },
   "devDependencies": {
     "vite": "4.1.1"

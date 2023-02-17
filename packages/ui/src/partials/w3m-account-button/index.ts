@@ -1,4 +1,4 @@
-import { ModalCtrl, OptionsCtrl } from '@web3modal/core'
+import { ModalCtrl, OptionsCtrl } from '@bitizenwallet/web3modal-core'
 import { html, LitElement } from 'lit'
 import { customElement, property } from 'lit/decorators.js'
 import { ThemeUtil } from '../../utils/ThemeUtil'

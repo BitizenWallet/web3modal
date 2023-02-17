@@ -4,9 +4,9 @@
 const nextConfig = {
   transpilePackages: [
     '@web3modal/ethereum',
-    '@web3modal/react',
-    '@web3modal/ui',
-    '@web3modal/core'
+    '@bitizenwallet/web3modal-react',
+    '@bitizenwallet/web3modal-ui',
+    '@bitizenwallet/web3modal-core'
   ],
   typescript: {
     ignoreBuildErrors: true

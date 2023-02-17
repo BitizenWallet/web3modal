@@ -1,4 +1,4 @@
-import { ModalCtrl, OptionsCtrl } from '@web3modal/core'
+import { ModalCtrl, OptionsCtrl } from '@bitizenwallet/web3modal-core'
 import { useEffect, useState } from 'react'
 
 export function useWeb3Modal() {

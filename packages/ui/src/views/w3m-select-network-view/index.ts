@@ -1,5 +1,5 @@
-import type { SwitchNetworkData } from '@web3modal/core'
-import { ClientCtrl, OptionsCtrl, RouterCtrl } from '@web3modal/core'
+import type { SwitchNetworkData } from '@bitizenwallet/web3modal-core'
+import { ClientCtrl, OptionsCtrl, RouterCtrl } from '@bitizenwallet/web3modal-core'
 import { html, LitElement } from 'lit'
 import { customElement } from 'lit/decorators.js'
 import { ThemeUtil } from '../../utils/ThemeUtil'

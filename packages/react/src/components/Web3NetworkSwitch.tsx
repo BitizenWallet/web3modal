@@ -1,4 +1,4 @@
-import type { W3mNetworkSwitch } from '@web3modal/ui'
+import type { W3mNetworkSwitch } from '@bitizenwallet/web3modal-ui'
 import React from 'react'
 
 /**

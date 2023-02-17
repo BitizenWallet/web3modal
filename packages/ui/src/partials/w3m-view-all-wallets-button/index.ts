@@ -1,4 +1,4 @@
-import { ExplorerCtrl, RouterCtrl } from '@web3modal/core'
+import { ExplorerCtrl, RouterCtrl } from '@bitizenwallet/web3modal-core'
 import { html, LitElement } from 'lit'
 import { customElement } from 'lit/decorators.js'
 import { SvgUtil } from '../../utils/SvgUtil'

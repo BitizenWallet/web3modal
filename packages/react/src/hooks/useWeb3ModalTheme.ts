@@ -1,4 +1,4 @@
-import { ConfigCtrl } from '@web3modal/core'
+import { ConfigCtrl } from '@bitizenwallet/web3modal-core'
 import { useEffect, useState } from 'react'
 
 export function useWeb3ModalTheme() {

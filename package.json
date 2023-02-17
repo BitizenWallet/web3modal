@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "npm run build --ws --if-present",
-    "dev": "npm run dev --w=@web3modal/core & npm run dev --w=@web3modal/ui & npm run dev --w=@web3modal/ethereum & npm run dev --w=@web3modal/react",
+    "dev": "npm run dev --w=@bitizenwallet/web3modal-core & npm run dev --w=@bitizenwallet/web3modal-ui & npm run dev --w=@web3modal/ethereum & npm run dev --w=@bitizenwallet/web3modal-react",
     "dev:nextjs": "npm run dev --w=nextjs-example",
     "dev:nextjs-standalone": "npm run dev -w=nextjs-standalone-example",
     "dev:cra": "npm run dev --w=cra-example",
