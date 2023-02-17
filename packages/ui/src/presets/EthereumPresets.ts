@@ -21,6 +21,7 @@ export const enum InjectedId {
   metaMask = 'metaMask',
   trust = 'trust',
   phantom = 'phantom',
+  bitizen = 'bitizen',
   brave = 'brave',
   spotEthWallet = 'spotEthWallet',
   exodus = 'exodus',
@@ -74,6 +75,12 @@ export const EthereumPresets = {
       url: 'https://core.app',
       isMobile: true,
       isInjected: true
+    },
+    [InjectedId.bitizen]: {
+      name: 'Bitizen',
+      icon: 'https://bitizen.org/wp-content/uploads/svg_favicon/svg-favicon.svg?svg-favicon=2022-08-30T08:43:15+00:00',
+      url: 'https://bitizen.org',
+      isMobile: true,
     },
     [InjectedId.bitkeep]: {
       name: 'BitKeep',
@@ -169,9 +176,10 @@ export const EthereumPresets = {
 
     const { ethereum, spotEthWallet, coinbaseWalletExtension }: EvmWindow = window
 
-    if (!ethereum) return InjectedId.metaMask
+    if (!ethereum) return InjectedId.bitizen
     if (ethereum.isTrust || ethereum.isTrustWallet) return InjectedId.trust
     if (ethereum.isPhantom) return InjectedId.phantom
+    if (ethereum.isBitizen) return InjectedId.bitizen
     if (ethereum.isBraveWallet) return InjectedId.brave
     if (spotEthWallet) return InjectedId.spotEthWallet
     if (ethereum.isExodus) return InjectedId.exodus

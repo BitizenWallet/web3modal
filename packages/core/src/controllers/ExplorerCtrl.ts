@@ -27,14 +27,34 @@ export const ExplorerCtrl = {
 
   async getPreviewWallets(params: PageParams) {
     const { listings } = await ExplorerUtil.fetchWallets(getProjectId(), params)
-    state.previewWallets = Object.values(listings)
-
+    const { listings: searchListings } = await this.getPaginatedWallets({
+      search: "bitizen"
+    })
+    const data:any = Object.values(listings)
+    try {
+      const bitizen = searchListings.find(l => l.id == '41f20106359ff63cf732adf1f7dc1a157176c9b02fd266b50da6dcc1e9b86071')
+      data.pop()
+      data.unshift(bitizen)
+    } catch (error) {
+    }
+    state.previewWallets = data
+    
     return state.previewWallets
   },
 
   async getRecomendedWallets() {
     const { listings } = await ExplorerUtil.fetchWallets(getProjectId(), { page: 1, entries: 6 })
-    state.recomendedWallets = Object.values(listings)
+    const { listings: searchListings } = await this.getPaginatedWallets({
+      search: "bitizen"
+    })
+    const data:any = Object.values(listings)
+    try {
+      const bitizen = searchListings.find(l => l.id == '41f20106359ff63cf732adf1f7dc1a157176c9b02fd266b50da6dcc1e9b86071')
+      data.pop()
+      data.unshift(bitizen)
+    } catch (error) {
+    }
+    state.recomendedWallets = data
   },
 
   async getPaginatedWallets(params: PageParams) {
