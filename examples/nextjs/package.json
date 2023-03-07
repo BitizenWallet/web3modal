@@ -1,22 +1,21 @@
 {
   "name": "nextjs-example",
-  "version": "2.1.1",
+  "version": "2.1.3",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build && next export"
+    "dev": "next dev"
   },
   "dependencies": {
-    "@web3modal/ethereum": "2.1.1",
-    "@bitizenwallet/web3modal-react": "2.1.1",
+    "@web3modal/ethereum": "2.1.3",
+    "@bitizenwallet/web3modal-react": "2.1.3",
     "ethers": "5.7.2",
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "wagmi": "0.11.5"
+    "wagmi": "0.11.6"
   },
   "devDependencies": {
     "@types/react": "18.0.28",
-    "@types/react-dom": "18.0.10"
+    "@types/react-dom": "18.0.11"
   }
 }
